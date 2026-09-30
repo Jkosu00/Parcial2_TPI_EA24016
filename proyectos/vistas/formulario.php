@@ -26,7 +26,7 @@
 
         foreach (Tamano::cases() as $value): ?>
 
-
+            <option value="<?= $value->value ?>"><?= $value->nombre() ?></option>
         <?php endforeach; ?>
 
         </select>
