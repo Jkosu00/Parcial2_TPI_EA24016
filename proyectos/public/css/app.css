@@ -1,0 +1,14 @@
+
+form{
+    display: grid;
+    grid-column: 1fr 1fr;
+    gap: 10px;
+}
+
+button::hover{
+    color: aqua;
+}
+
+.error {
+    color: red;
+}
